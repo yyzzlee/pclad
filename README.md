@@ -48,19 +48,19 @@ use `script_ablation.sh` produce detection results of ablated variants (w/o L_LC
 ### Parameter Sensitivity 
 use `script_sensitivity_X.sh` produce detection results with different hyperparameters.
 ```shell
-./script_sensitivity_d.sh    #hyperparameter d
+./script_sensitivity_d.sh    # hyperparameter d
 ``` 
 ```shell
-./script_sensitivity_n.sh    #hyperparameter n
+./script_sensitivity_n.sh    # hyperparameter n
 ``` 
 ```shell
-./script_sensitivity_lamda.sh    #hyperparameter lamda
+./script_sensitivity_lamda.sh    # hyperparameter lamda
 ``` 
 ```shell
-./script_sensitivity_lr.sh    #hyperparameter lr
+./script_sensitivity_lr.sh    # hyperparameter lr
 ``` 
 ```shell
-./script_sensitivity_m.sh    #hyperparameter m
+./script_sensitivity_m.sh    # hyperparameter m
 ``` 
 Please note that when testing the sensitivity of the hyperparameter m (the number of partitions), it is necessary to first remove the update dictionary for it from the config.py.
 
