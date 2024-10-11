@@ -141,25 +141,6 @@ class PCLAD(BaseDeepAD):
         r_all_lst = list(set(np.hstack(r_type_lst)))
 
         return r_all_lst, r_type_lst
-    
-    def partition_num_setting(self):
-        # m = None
-        if self.n_features < 50:
-            m = np.floor(self.n_features / 2) + 1
-        elif self.n_features < 100:
-            m = np.floor(self.n_features / 4) + 1
-        elif self.n_features < 500:
-            m = np.floor(self.n_features / 5) + 1
-        elif self.n_features < 1000:
-            m = np.floor(self.n_features / 10.5) + 1
-        elif self.n_features < 3000:
-            m = np.floor(self.n_features / 30) + 1
-        elif self.n_features < 5000:
-            m = np.floor(self.n_features / 50) + 1
-        else:
-            m = self.partition_num
-
-        return int(m)
 
 
 class PCLADEncoder(torch.nn.Module):
