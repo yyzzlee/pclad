@@ -46,7 +46,7 @@ use `script_ablation.sh` produce detection results of ablated variants (w/o L_LC
 ```
 
 ### Parameter Sensitivity 
-use `script_sensitivity_.sh` produce detection results with different hyperparameters.
+use `script_sensitivity_X.sh` produce detection results with different hyperparameters.
 ```shell
 ./script_sensitivity_d.sh    #hyperparameter d
 ``` 
