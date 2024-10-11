@@ -36,8 +36,6 @@ class PCLAD(BaseDeepAD):
         return
 
     def training_prepare(self, X, y=None):
-        # self.partition_num = self.partition_num_setting()
-        print(self.partition_num)
         r_all_lst, r_type_lst = self.subspace_partition_based_Trans(self.n_features, self.n_trans, self.anchor_partition, self.partition_num)
         for r in r_all_lst:
             n_hidden = str(int(np.ceil(r / 2))) + ',' + str(int(np.ceil(r / 2)))
