@@ -76,3 +76,5 @@ All the anomaly detectors in our paper are implemented in Python. We list their 
 - `DSVDD`: https://github.com/lukasruff/Deep-SVDD-PyTorch 
 - `SLAD` and `DIF`: https://github.com/xuhongzuo/DeepOD
 - `SLA2P`: https://github.com/wyzjack/SLA2P
+- `SCMK`: https://github.com/TST826/SemanticMask
+- `RAAD`: https://github.com/CIKMAnon/Retrieval-Augmented-Deep-Anomaly-Detection-for-Tabular-Data
